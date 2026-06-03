@@ -4,9 +4,9 @@ from aiogram.fsm.context import FSMContext
 from aiogram.types import ReplyKeyboardRemove
 import os
 
-from .keyboards import *
-from .states import *
-from .utils import *
+from keyboards import *
+from states import *
+from utils import *
 
 ADMIN_ID = int(os.getenv("ADMIN_ID", 0))
 
